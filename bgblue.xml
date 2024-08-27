@@ -1,0 +1,33 @@
+<!--
+theme name:     Slanty RG40XXH
+creator:		Dwayne Hurst
+version         1
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+   <formatVersion>7</formatVersion>    
+   
+<feature supported="carousel">
+   <view name="system">
+      <image name="background666" extra="true">
+         <origin>0 0</origin>
+	     <path>./_inc/backgrounds/bgblue.png</path>       
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>1</zIndex>                               
+      </image>                 
+   </view>
+</feature> 
+          
+   <view name="basic,video,gamecarousel,grid,detailed">   
+      <image name="background666" extra="true">
+         <origin>0 0</origin>
+	     <path>./_inc/backgrounds/bgblue.png</path>       
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>1</zIndex>                               
+      </image>                         
+   </view>    
+</theme>
